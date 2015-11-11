@@ -142,7 +142,7 @@ $(objs_dir)/%.o: $(jpg_srcs_dir)/%.cpp
 ## limpiar
 
 clean:
-	rm -f $(objs_dir)/*.o *.o $(target_name)
+	rm -f $(objs_dir)/*.o *.o $(target_name) *~
 	
 
 
