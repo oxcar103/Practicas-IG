@@ -1,6 +1,12 @@
+// *********************************************************************
+// **
+// ** Informática Gráfica, curso 2015-16
+// ** Práctica 3  (declaraciones públicas)
+// **
+// *********************************************************************
+
 #ifndef FREEDOM_DEGREE_HPP
 #define FREEDOM_DEGREE_HPP
-
 
 template<class T>
 class FreedomDegree{

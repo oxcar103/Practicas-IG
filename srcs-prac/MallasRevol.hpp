@@ -1,3 +1,10 @@
+// *********************************************************************
+// **
+// ** Informática Gráfica, curso 2015-16
+// ** Práctica 2  (declaraciones públicas)
+// **
+// *********************************************************************
+
 #ifndef MALLASREVOL_HPP
 #define MALLASREVOL_HPP
 

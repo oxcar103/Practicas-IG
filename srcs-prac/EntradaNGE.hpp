@@ -1,3 +1,10 @@
+// *********************************************************************
+// **
+// ** Informática Gráfica, curso 2015-16
+// ** Práctica 3  (declaraciones públicas)
+// **
+// *********************************************************************
+
 #ifndef ENTRADA_NGE_HPP
 #define ENTRADA_NGE_HPP
 
