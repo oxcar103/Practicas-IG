@@ -24,7 +24,7 @@ void MallaInd::visualizar(unsigned modo_vis){
 
         glEnableClientState(GL_VERTEX_ARRAY);
         glVertexPointer(3, GL_FLOAT, 0, &vertices[0]);
-    for(int i = 0; i < faces.size(); i++){
+    for(unsigned int i = 0; i < faces.size(); i++){
         if(modo_vis == 3 && i % 2 == 0)
             glColor3f(1, 1, 0);
         else
