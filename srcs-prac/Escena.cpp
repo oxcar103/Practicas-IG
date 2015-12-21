@@ -10,13 +10,22 @@
 Helicopter::Helicopter(){
     chopper = new MallaPLY("../plys/helicopter.ply");
 
+    // Matrices que determinarán la posición:
     agregar(MAT_Ident());
     agregar(MAT_Ident());
+
+    // Colocar el modelo con la orientación correcta y la línea de tierra
     agregar(MAT_Traslacion(0, 3.1, 0));
     agregar(MAT_Rotacion(270, 1, 0, 0));
     agregar(MAT_Rotacion(90, 0, 0, 1));
+
+    // Base
     agregar(chopper);
+
+    // Hélice principal
     agregar(new HelicopterRotor());
+
+    // Hélice de cola
     agregar(new TailRotor());
 }
 
@@ -41,8 +50,13 @@ void Helicopter::setAngleTRotor(float angle){
 HelicopterRotor::HelicopterRotor(){
     hRotor = new MallaPLY("../plys/helicopter2.ply");
 
+    // Ajustes para que quede pegada a la base
     agregar(MAT_Traslacion(0, 0.2, 2.2));
+
+    // Matriz que determinará el angulo
     agregar(MAT_Ident());
+
+    // Hélice principal
     agregar(hRotor);
 }
 
@@ -54,8 +68,13 @@ void HelicopterRotor::setAngle(float angle){
 TailRotor::TailRotor(){
     tRotor = new MallaPLY("../plys/helicopter3.ply");
 
+    // Ajustes para que quede pegada a la base
     agregar(MAT_Traslacion(0.3, 7.6, 0.65));
+
+    // Matriz que determinará el angulo
     agregar(MAT_Ident());
+
+    // Hélice de cola
     agregar(tRotor);
 }
 
