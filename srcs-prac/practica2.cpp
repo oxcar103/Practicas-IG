@@ -28,8 +28,6 @@ MallaRevol * fig_revol = NULL;
 // incializado OpenGL. 
 
 void P2_Inicializar(int argc, char *argv[]){
-    int num_rev = 50;
-
     fig_revol = new MallaRevol("../plys/peon.ply", 50);
 
     if(argc > 1)
