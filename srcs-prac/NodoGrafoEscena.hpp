@@ -13,11 +13,10 @@ class NodoGrafoEscena : public Objeto3D{
         // visualiza usando OpenGL
         virtual void visualizar(unsigned modo_vis);
 
-        /*Dejar en una, a ser posible*/
         // añade entrada al final
         void agregar(EntradaNGE * entrada);
         // añade entrada al final
-       void agregar(EntradaNGE entrada);
+        void agregar(EntradaNGE entrada);
 
 };
 
