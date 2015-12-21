@@ -18,7 +18,7 @@ target_name	:= prac
 units_loc   := main\
                practica1 Objeto3D MallasInd Cube Tetrahedron Cylinder Cone\
                practica2 MallasPLY MallasRevol\
-               practica3\
+               practica3 NodoGrafoEscena EntradaNGE Escena\
                practica4\
                practica5
 ### nota: añadir a 'units_loc' los módulos practica2 practica3, etc.....
