@@ -27,12 +27,6 @@
 // includes de archivos en el directorio de trabajo (de las prácticas)
 #include "practica3.hpp"
 
-// includes de archivos en el directorio de trabajo (de las prácticas)
-#include "practica4.hpp"
-
-// includes de archivos en el directorio de trabajo (de las prácticas)
-#include "practica5.hpp"
-
 // evita la necesidad de escribir std:: 
 using namespace std;
 
@@ -190,14 +184,6 @@ void DibujarObjetos(){
             P3_DibujarObjetos(modo_vis); // definido en 'practica3.hpp'
             break;
 
-        case 4: 
-            P4_DibujarObjetos(modo_vis); // definido en 'practica4.hpp'
-            break;
-
-        case 5: 
-            P5_DibujarObjetos(modo_vis); // definido en 'practica5.hpp'
-            break;
-
         default:
             cout << "El valor de 'practica_actual' (" << practica_actual  << ") es incorrecto" << endl;
             break;
@@ -267,7 +253,7 @@ void FGE_PulsarTeclaNormal(unsigned char tecla, int x_raton, int y_raton){
             break;
 
         case 'P':
-            practica_actual = (practica_actual % 5) + 1; // Porque las prácticas empiezan en 1 en lugar de en 0.
+            practica_actual = (practica_actual % 3) + 1; // Porque las prácticas empiezan en 1 en lugar de en 0.
             break;
 
         default:
@@ -285,14 +271,6 @@ void FGE_PulsarTeclaNormal(unsigned char tecla, int x_raton, int y_raton){
                     redibujar = P3_FGE_PulsarTeclaNormal(tecla); // true si es necesario redibujar 
                     break;
                 
-                case 4:
-                    redibujar = P4_FGE_PulsarTeclaNormal(tecla); // true si es necesario redibujar 
-                    break;
-                
-                case 5:
-                    redibujar = P5_FGE_PulsarTeclaNormal(tecla); // true si es necesario redibujar 
-                    break;
-
                 default :
                     redibujar = false; // la tecla no es de la práctica activa (no es necesario redibujar)
             }
@@ -406,7 +384,7 @@ void Inicializa_Vars(){
     camara_angulo_y = 0.0;
 
     // inicializar práctica actual y modo de visualización inicial
-    practica_actual = 3;
+    practica_actual = 1;
     modo_vis = 0;
 }
 
@@ -476,12 +454,6 @@ void Inicializar(int argc, char *argv[]){
 
     // inicializar práctica 3.
     P3_Inicializar(argc, argv);
-
-    // inicializar práctica 4.
-    P4_Inicializar(argc, argv);
-
-    // inicializar práctica 5.
-    P5_Inicializar(argc, argv);
 }
 
 // *********************************************************************

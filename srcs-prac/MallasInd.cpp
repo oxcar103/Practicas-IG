@@ -34,5 +34,4 @@ void MallaInd::visualizar(unsigned modo_vis){
 
         
     }
-        glDisableClientState(GL_VERTEX_ARRAY);
-}
+        glDisableClientState(GL_VERTEX_ARRAY);}
