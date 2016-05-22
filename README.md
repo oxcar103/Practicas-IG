@@ -7,7 +7,7 @@ Compilar con `make` desde el directorio `srcs-prac`.
 
 Licencia
 ---------------------------------------------
-El proyecto en conjunto se distribuye bajo licencia [GPL](https://github.com/fdavidcl/informatica-grafica/blob/master/LICENSE),
+El proyecto en conjunto se distribuye bajo licencia [GPL](https://github.com/oxcar103/Practicas-IG/blob/master/LICENSE),
 puesto que algunos de los archivos provistos para su utilización se han distribuido de esta forma.
 
 Los archivos propios para las prácticas se comparten además bajo licencia [MPL](https://github.com/oxcar103/Practicas-IG/tree/master/licenses/practicas).
