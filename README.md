@@ -1,13 +1,13 @@
 Informática Gráfica
-=============================================
+========================
 
 Uso
----------------------------------------------
+------------------------
 Compilar con `make` desde el directorio `srcs-prac`.
 
 Licencia
----------------------------------------------
-El proyecto en conjunto se distribuye bajo licencia [GPL](https://github.com/oxcar103/Practicas-IG/blob/master/LICENSE),
+------------------------
+El proyecto en conjunto se distribuye bajo licencia [GPL](LICENSE),
 puesto que algunos de los archivos provistos para su utilización se han distribuido de esta forma.
 
 Los archivos propios para las prácticas se comparten además bajo licencia [MPL](https://github.com/oxcar103/Practicas-IG/tree/master/licenses/practicas).
@@ -15,7 +15,7 @@ Los archivos propios para las prácticas se comparten además bajo licencia [MPL
 Otros archivos se pueden distribuir independientemente bajo otros términos, ver directorio [licenses](https://github.com/oxcar103/Practicas-IG/tree/master/licenses) para más información.
 
 Teclas
----------------------------------------------
+------------------------
   * <kbd>P</kbd>: Cambia de práctica
   * <kbd>O</kbd>: Cambia de objeto
   * <kbd>M</kbd>: Cambia de modo de visualización
